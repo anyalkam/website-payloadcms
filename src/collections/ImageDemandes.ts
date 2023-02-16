@@ -24,7 +24,7 @@ export const ImageDemandes: CollectionConfig = {
     hooks: {
         afterChange: [
             async ({ req: { payload }, doc }) => {
-                const bb = new Bannerbear("your api key");
+                const bb = new Bannerbear("bb_pr_5e112a82366ed3cbc54eb09d343258");
                 const images = await bb.create_image(
                     "yKBqAzZ9xnrnbvMx36",
                     {
